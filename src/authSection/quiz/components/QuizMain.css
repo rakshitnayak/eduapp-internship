@@ -1,0 +1,127 @@
+
+.container { 
+    /* height: 200px; */
+    position: relative;
+  }
+  
+  .questbtn {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    bottom: 230px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+   .nextbtn {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    /* top:90px; */
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.NextStep{
+    background-color: #e7dec8;
+    font-size: 1.3rem;
+    color:#111;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.NextStep:hover{
+    background-color: rgb(141, 233, 233);
+}
+.NextStep[disabled]{
+    display: none;
+}
+
+.skipbtn {
+    margin: 0;
+    position: absolute;
+    bottom: 150%;
+    left: 80%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+.skipQuestion{
+    background-color: #e7c8cd;
+    color:#111;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 320px;
+    align-items: center;
+   
+    
+}
+.skipQuestion:hover{
+    background-color:orange;
+}
+
+.QuestionNum{
+    border-radius: 12px;
+    background-color:#ff414d;
+    border: none;
+    color: white;
+    padding: 7px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+   font-size: 1.2rem;
+}
+
+
+
+
+.finalPage{
+    text-align: center;
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 3rem;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color:#fff;
+    text-transform: none;
+    text-shadow: none;
+}
+
+.finalPage h4{
+    font-size: 2.2rem;
+    color: orange;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.finalPage p{
+    margin-top: 30px;
+    font-size: 1.8srem;
+    color: #fff;
+    /* font-weight: bold; */
+    text-transform: capitalize;
+}
+
+.tryagainbtn{
+    margin-top: 40px;
+    padding:10px;
+    
+   }
+
+.tryagainbtn:hover{
+    background-color:lightgreen;
+}
+
+
+
+/* Responsive */
